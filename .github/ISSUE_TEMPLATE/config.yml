@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: Apache-2.0
+blank_issues_enabled: false
+contact_links:
+  - name: A problem in the framework, or one of its docs pages
+    url: https://github.com/anetos-dev/anetos/issues/new/choose
+    about: The framework and the pages of docs.anetos.dev live in anetos-dev/anetos.
+  - name: Ask a question
+    url: https://github.com/anetos-dev/anetos/discussions
+    about: Questions, ideas and things you built go to Discussions.
+  - name: Report a security vulnerability
+    url: https://github.com/anetos-dev/anetos/security/advisories/new
+    about: Privately, never in a public issue.
+  - name: A translation of the framework's messages
+    url: https://github.com/anetos-dev/locales/issues/new/choose
+    about: Missing or wrong messages in a language, or a new language.

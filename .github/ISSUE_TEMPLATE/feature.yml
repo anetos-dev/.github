@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Proposal
+description: Propose an improvement.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What's missing or hard today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you propose
+    validations:
+      required: true

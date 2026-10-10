@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Bug report
+description: Something doesn't work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. A problem in the framework itself belongs in
+        [anetos-dev/anetos](https://github.com/anetos-dev/anetos/issues/new/choose),
+        and a security vulnerability goes to the private form (see
+        [SECURITY.md](https://github.com/anetos-dev/.github/blob/main/SECURITY.md)).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where
+      description: The page, the file or the locale, and the version if there is one.
+    validations:
+      required: false
