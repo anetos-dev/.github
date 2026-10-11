@@ -1,9 +1,9 @@
 # Anetos
 
-A batteries-included web framework for Go, with the comfort of Laravel
-or Rails, built the Go way: typed, `net/http` underneath, and one binary
-that runs the web server, the queue workers, the scheduler and the
-listeners.
+A new, batteries-included web framework for Go: easy to start with,
+easy to extend, built the Go way. It's typed, has `net/http`
+underneath, and builds one binary that runs the web server, the queue
+workers, the scheduler and the listeners.
 
 - [anetos.dev](https://anetos.dev) · [Documentation](https://docs.anetos.dev) ·
   [Getting started](https://docs.anetos.dev/getting-started/)
